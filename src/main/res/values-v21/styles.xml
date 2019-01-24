@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorAccent">@color/cyan</item>
+        <item name="android:colorBackground">@color/erieBlack</item>
+        <item name="android:colorPrimary">@color/teal</item>
+        <item name="android:colorForeground">@color/cyan</item>
+        <item name="android:textColorPrimary">@color/erieBlack</item>
+        <item name="android:textColorPrimaryInverse">@color/cyan</item>
+    </style>
+</resources>

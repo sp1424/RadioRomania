@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.atsevdev.radioromania">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <application
+
+        android:configChanges="orientation|screenSize"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_radio_romania_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_radio_romania_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppTheme.Light">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5272936325413669~3936405070" />
+
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppTheme.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.media.browse.MediaBrowserService" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name=".MyServices">
+            <intent-filter>
+                <action android:name="org.atsevdev.radioromaia.action.rad_buc" />
+
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.atsevdev.radioromaia.action.URL" />
+                <data android:scheme="http" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
