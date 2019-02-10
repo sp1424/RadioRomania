@@ -27,34 +27,34 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     //initialising variables
-    public static final String DigiFm = "http://edge76.rdsnet.ro:84/digifm/digifm.mp3";
-    public static final String radio_zu = "http://live.romanticfm.ro:9123/radiozu.mp3";
-    public static final String Radio_popular = "http://mp3.radiopopular.ro:7777/;stream.mp3";
-    public static final String Eur_fm = "http://89.37.58.103:8000/europafm_mp3_64k";
-    public static final String radio_rom_acc = "http://stream2.srr.ro:8000/;stream/1";
-    public static final String PROFMurl = "http://edge126.rdsnet.ro:84/profm/profm.mp3";
-    public static final String radiobuchuresti = "http://89.238.227.6:8032/\n" +
+    public final String DigiFm = "http://edge76.rdsnet.ro:84/digifm/digifm.mp3";
+    public final String radio_zu = "http://live.romanticfm.ro:9123/radiozu.mp3";
+    public final String Radio_popular = "http://mp3.radiopopular.ro:7777/;stream.mp3";
+    public final String Eur_fm = "http://89.37.58.103:8000/europafm_mp3_64k";
+    public final String radio_rom_acc = "http://stream2.srr.ro:8000/;stream/1";
+    public final String PROFMurl = "http://edge126.rdsnet.ro:84/profm/profm.mp3";
+    public final String radiobuchuresti = "http://89.238.227.6:8032/\n" +
             "Title1=Bucuresti FM\n" +
             "Length1=-1\n" +
             "Version=2";
-    public static final String impactfm = "http://89.39.189.159:8000/";
-    public static final String olteniaCraiovafm = "http://stream2.srr.ro:8370/;stream/1";
-    public static final String radiocluj = "http://89.238.227.6:8384/;stream/1";
-    public static final String vibefm = "http://89.37.58.102:8000/vibefm_mp3_64k";
-    public static final String smartfm = "http://live.smartfm.ro:9128/live";
-    public static final String virginradio = "http://astreaming.virginradio.ro:8000/virgin_mp3_64k";
-    public static final String romaniacultural = "http://stream2.srr.ro:8012/;stream/1";
-    public static final String romaniaresita = "http://stream2.srr.ro:8012/;stream/1";
-    public static final String radioromaniamuscial = "http://stream2.srr.ro:8022/;stream/1";
-    public static final String radiogaga = "http://rc.radiogaga.ro:8000/live";
-    public static final String radiorenasterea = "http://radiorenasterea.ro:8000/live";
-    public static final String dancefm = "http://stream.profm.ro:8032/dancefm.mp3";
-    public static final String radiotimisoara = "http://89.238.227.6:8350/;stream/1";
-    public static final String radioantentasatelor = "http://stream2.srr.ro:8042/;stream/1";
-    public static final String radioconstanta = "http://89.238.227.6:8332/;stream/1";
-    public static final String taraf = "http://192.99.98.244:8181/taraf";
-    public static final String radiointens = "http://51.254.103.133:8070/stream";
-    public static final String megahit = "http://188.165.162.208:8080/stream";
+    public final String impactfm = "http://89.39.189.159:8000/";
+    public final String olteniaCraiovafm = "http://stream2.srr.ro:8370/;stream/1";
+    public final String radiocluj = "http://89.238.227.6:8384/;stream/1";
+    public final String vibefm = "http://89.37.58.102:8000/vibefm_mp3_64k";
+    public final String smartfm = "http://live.smartfm.ro:9128/live";
+    public final String virginradio = "http://astreaming.virginradio.ro:8000/virgin_mp3_64k";
+    public final String romaniacultural = "http://stream2.srr.ro:8012/;stream/1";
+    public final String romaniaresita = "http://stream2.srr.ro:8012/;stream/1";
+    public final String radioromaniamuscial = "http://stream2.srr.ro:8022/;stream/1";
+    public final String radiogaga = "http://rc.radiogaga.ro:8000/live";
+    public final String radiorenasterea = "http://radiorenasterea.ro:8000/live";
+    public final String dancefm = "http://stream.profm.ro:8032/dancefm.mp3";
+    public final String radiotimisoara = "http://89.238.227.6:8350/;stream/1";
+    public final String radioantentasatelor = "http://stream2.srr.ro:8042/;stream/1";
+    public final String radioconstanta = "http://89.238.227.6:8332/;stream/1";
+    public final String taraf = "http://192.99.98.244:8181/taraf";
+    public final String radiointens = "http://51.254.103.133:8070/stream";
+    public final String megahit = "http://188.165.162.208:8080/stream";
     //setting up exoplayer
     private PlayerView playerView;
     public SimpleExoPlayer player;
