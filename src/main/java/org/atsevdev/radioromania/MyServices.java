@@ -110,10 +110,7 @@ public class MyServices extends Service {
 
 
 
-    public SimpleExoPlayer getPlayer1()
-    {
-        return player1;
-    }
+
 
     public class localBinder extends Binder{
         public MyServices getService(){return MyServices.this;}
